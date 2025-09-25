@@ -20,12 +20,12 @@ canvas {
 /* On-screen buttons */
 #btnJump, #btnCrouch {
   position: fixed;
-  bottom: 100px;/*prev 55*/
-  width: 30px;
-  height: 20px;
+  bottom: 70px;/*prev 55*/
+  width: 50px;
+  height: 40px;
   border: none;
   border-radius: 12px;
-  font-size: 5px;
+  font-size: 20px;
   font-weight: bold;
   color: white;
   background: rgba(0, 0, 0, 0.65);
@@ -35,7 +35,7 @@ canvas {
 }
 
 #btnJump {
-  right: 140px; /* place Jump to the left */
+  right: 300px; /* place Jump to the left */
 }
 
 #btnCrouch {
@@ -47,5 +47,6 @@ canvas {
   background: rgba(0, 0, 0, 0.85);
 
 }
+
 
 
