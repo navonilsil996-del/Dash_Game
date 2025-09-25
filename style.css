@@ -3,6 +3,7 @@ html, body {
   margin: 0;
   background: #87CEEB; /* Sky blue */
   -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
 }
 
 canvas {
@@ -34,11 +35,11 @@ canvas {
 }
 
 #btnJump {
-  right: 1400px; /* place Jump to the left */
+  right: 140px; /* place Jump to the left */
 }
 
 #btnCrouch {
-  right: 1280px;  /* place Crouch on far right */
+  right: 20px;  /* place Crouch on far right */
 }
 
 #btnJump:active,
@@ -46,4 +47,5 @@ canvas {
   background: rgba(0, 0, 0, 0.85);
 
 }
+
 
